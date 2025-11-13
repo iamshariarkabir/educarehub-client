@@ -20,7 +20,7 @@ const HomeBanner = () => {
 
   return (
     <motion.div
-      className={`hero overflow-hidden ${
+      className={`hero  overflow-hidden ${
         currentTheme === "light"
           ? "animated-gradient-light"
           : "animated-gradient-dark"
