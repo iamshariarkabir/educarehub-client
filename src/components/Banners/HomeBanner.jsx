@@ -33,7 +33,7 @@ const HomeBanner = () => {
       <div className="hero-overlay bg-opacity-0"></div>
 
       <Container>
-        <div className="flex flex-col  items-center justify-between text-center md:text-left pt-12">
+        <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left pt-12">
           <div className="hero-content flex-1">
             <div className="max-w-xl">
               <motion.span
