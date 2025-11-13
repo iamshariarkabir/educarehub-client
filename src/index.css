@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Define custom DaisyUI themes directly here */
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  prefersdark: false;
+
+  --color-primary: #1a73e8;
+  --color-secondary: #f9ab00;
+  --color-accent: #37cdbe;
+  --color-neutral: #3d4451;
+  --color-base-100: #ffffff;
+  --color-info: #3abff8;
+  --color-success: #36d399;
+  --color-warning: #fbbd23;
+  --color-error: #f87272;
+
+  --font-sans: "Inter", sans-serif;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  prefersdark: true;
+
+  --color-primary: #1a73e8;
+  --color-secondary: #f9ab00;
+  --color-accent: #37cdbe;
+  --color-neutral: #f5f5f5;
+  --color-base-100: #1a1a1a;
+  --color-info: #3abff8;
+  --color-success: #36d399;
+  --color-warning: #fbbd23;
+  --color-error: #f87272;
+
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Tailwind core utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global font */
+html {
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+html.dark ::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+
+
+/* Animated Gradient Background CSS */
+
+/* Light Mode Gradient */
+.animated-gradient-light {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* Dark Mode Gradient */
+.animated-gradient-dark {
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1a2930);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* The Animation Keyframes */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
