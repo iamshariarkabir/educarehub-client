@@ -1,16 +1,54 @@
-# React + Vite
+# 🎓 EducareHub – Online Learning Platform  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **Better Learning Future With Us**  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Overview  
+**EducareHub** is a premier full-stack online learning platform dedicated to fostering a community of lifelong learners.  
+It provides access to world-class education, top instructors, and a variety of courses to help learners achieve personal and professional goals.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💡 Features  
+- 👩‍🏫 Expert Instructors (45+)  
+- 📚 Wide range of Courses (80+)  
+- 🎓 Students Enrolled: 1,200+  
+- ⭐ Positive Reviews: 3,500+  
+- Unlimited resources & strong support  
+- Ability to become an instructor and teach globally  
+- Personalized course recommendations & newsletters  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- **React** – Frontend framework  
+- **Tailwind CSS** – Responsive & utility-first styling  
+- **Node.js** – Backend runtime  
+- **Express.js** – Backend framework  
+- **MongoDB** – Database  
+- **Firebase** – Authentication & storage  
+
+---
+
+## 📦 Dependencies  
+- **react-router-dom** – Routing  
+- **express** – Backend API  
+- **mongoose** – MongoDB object modeling  
+- **firebase** – Authentication & storage  
+
+---
+
+## 💻 Installation  
+
+- Clone the repository: https://github.com/iamshariarkabir/educarehub-client.git
+- Install dependencies: npm install
+- Run server: nodemon index.js
+- Run client: npm run deb
+
+
+# 🚀 Live Demo
+
+🔗 Add your live demo link here
+
+https://educarehub-5b51c.web.app
